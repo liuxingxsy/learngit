@@ -36,3 +36,5 @@ grep -l pattern files   //只列出匹配的文件名
 grep -L pattern files   //列出不匹配的文件名
 grep -w pattern files  //只匹配整个单词，而不是字符串的一部分（如匹配‘magic’，而不是‘magical’）
 grep -C number pattern files //匹配的上下文分别显示[number]行
+10、解压文件
+tar -zxvf 20160917.tar.gz
